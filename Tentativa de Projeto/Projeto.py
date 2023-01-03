@@ -1,4 +1,4 @@
-from funcoes import listaTipoFicheiroTXT ,listaTipoFicheiroCSV, Menu1, LerFicheiroTXT, constroiNomeApelido,constroiNumero, escreveFicheirosCSV, perguntaSair
+from funcoes import listaTipoFicheiroTXT ,listaTipoFicheiroCSV, Menu1, LerFicheiroTXT, constroiNomeApelido,constroiNumero, escreveFicheirosCSV, perguntaSair,FicheiroRES_CSV
 
 Menu1()
 
@@ -9,7 +9,7 @@ while op not in {0,1,2}:
 if op == 1:
     LerFicheiroTXT()
     escreveFicheirosCSV()
-    
+    FicheiroRES_CSV()
 
 
 if op == 0:
