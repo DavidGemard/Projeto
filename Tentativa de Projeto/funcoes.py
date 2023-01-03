@@ -1,4 +1,3 @@
-
 def listaTipoFicheiroTXT(tipoTXT):
     from os import listdir
      
@@ -64,7 +63,64 @@ def LerFicheiroTXT():
                 dados[NPerg] = [NPerg, TxtPerg, OpCerta, Opcoes]
     
     return dados
+# O problema de ter chamado global dados, foi que sempre que executo a função pede o nome do ficheiro TXT e não pode ser, mesmo no programa principal pede
+#antes sequer de selecionar as opcoes do menu1. Não sei como alterar
+global dados
+dados = LerFicheiroTXT()
+
+def GeradorResp():
+    import random
+    listResp = []
+    for v in dados.values():
+        Possibilidades = [random.choice(v[3]), random.choice(v[3]), random.choice(v[3]), random.choice(v[3]), random.choice(v[3]), '0']
+        resposta = random.choice(Possibilidades)
+        listResp.append(resposta)
+    return listResp
+
+def Perguntas():
+    Perguntas = []
+    for k in dados.keys():
+        Perguntas.append(k)
+    return Perguntas
+
+def FicheiroRES_CSV():
+    import csv
+    from os.path import isfile
+    listaTipoFicheiroTXT('.txt')
+    fileNameTXT = input('Indique o Nome do Ficheiro TXT: ')
+    while not isfile(fileNameTXT):
+        print('Erro : Ficheiro não existente ou falta de .txt')
+        fileNameTXT = input('Indique o Nome do Ficheiro TXT: ')
+    listaTipoFicheiroCSV('.csv')
+    fileNameCSV = input('Indique o Nome do Ficheiro CSV: ')
+    while not isfile(fileNameCSV):
+        print('Erro : Ficheiro não existente ou falta de .csv')
+        fileNameCSV = input('Indique o Nome do Ficheiro CSV')
+    f = open(fileNameCSV,'r')
+    csv_reader = csv.reader(f)
+    fileNameCSV_RES = input('Que nome deseja colocar no Ficheiro _RES.csv ? :')
+    if not fileNameCSV_RES.endswith("_RES.csv"):
+        print('Erro : Ficheiro não existente ou falta de _RES.csv')
+        fileNameCSV_RES = input('Que nome deseja colocar no Ficheiro _RES.csv ? :')
         
+    with open(fileNameCSV_RES,'w') as output:
+        writer = csv.writer(output)
+        Perguntas1 = Perguntas()
+        Colunas = ['Alunos']
+        Colunas.extend(Perguntas1)
+        writer.writerow(Colunas)
+        for linha in csv_reader:
+            listlinha = []
+            listResp = []
+            listlinha.append(linha)
+            listResp = GeradorResp()
+            listlinha.extend(listResp)
+            writer.writerow(listlinha)
+        else:
+            f.close()
+        
+    
+    
         
 #Construção dos Números dos Alunos  
   
