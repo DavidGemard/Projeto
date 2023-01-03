@@ -1,0 +1,72 @@
+--> Pergunta: <--
+21
+Texto da Pergunta 21
+4
+Resposta: ...... B
+Resposta: ...... A
+Resposta: ...... D
+Resposta: ...... C
+--> Pergunta: <--
+13
+Texto da Pergunta 13
+2
+Resposta: ...... C
+Resposta: ...... D
+Resposta: ...... A
+Resposta: ...... B
+--> Pergunta: <--
+58
+Texto da Pergunta 58
+1
+Resposta: ...... D
+Resposta: ...... A
+Resposta: ...... B
+Resposta: ...... C
+--> Pergunta: <--
+41
+Texto da Pergunta 41
+2
+Resposta: ...... C
+Resposta: ...... A
+Resposta: ...... B
+--> Pergunta: <--
+3
+Texto da Pergunta 3
+1
+Resposta: ...... C
+Resposta: ...... B
+Resposta: ...... A
+Resposta: ...... D
+--> Pergunta: <--
+26
+Texto da Pergunta 26
+2
+Resposta: ...... B
+Resposta: ...... A
+--> Pergunta: <--
+17
+Texto da Pergunta 17
+1
+Resposta: ...... A
+Resposta: ...... B
+--> Pergunta: <--
+61
+Texto da Pergunta 61
+3
+Resposta: ...... A
+Resposta: ...... C
+Resposta: ...... B
+--> Pergunta: <--
+33
+Texto da Pergunta 33
+2
+Resposta: ...... B
+Resposta: ...... C
+Resposta: ...... A
+--> Pergunta: <--
+28
+Texto da Pergunta 28
+2
+Resposta: ...... A
+Resposta: ...... B
+Resposta: ...... C
