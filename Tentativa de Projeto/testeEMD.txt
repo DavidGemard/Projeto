@@ -1,0 +1,140 @@
+--> Pergunta: <--
+15
+Texto da Pergunta 15
+2
+Resposta: ...... B
+Resposta: ...... A
+--> Pergunta: <--
+76
+Texto da Pergunta 76
+2
+Resposta: ...... A
+Resposta: ...... B
+--> Pergunta: <--
+14
+Texto da Pergunta 14
+3
+Resposta: ...... B
+Resposta: ...... A
+Resposta: ...... C
+--> Pergunta: <--
+88
+Texto da Pergunta 88
+2
+Resposta: ...... C
+Resposta: ...... B
+Resposta: ...... A
+--> Pergunta: <--
+75
+Texto da Pergunta 75
+2
+Resposta: ...... C
+Resposta: ...... B
+Resposta: ...... A
+--> Pergunta: <--
+97
+Texto da Pergunta 97
+3
+Resposta: ...... B
+Resposta: ...... A
+Resposta: ...... C
+--> Pergunta: <--
+66
+Texto da Pergunta 66
+4
+Resposta: ...... A
+Resposta: ...... B
+Resposta: ...... C
+Resposta: ...... D
+--> Pergunta: <--
+89
+Texto da Pergunta 89
+1
+Resposta: ...... B
+Resposta: ...... A
+--> Pergunta: <--
+35
+Texto da Pergunta 35
+1
+Resposta: ...... C
+Resposta: ...... D
+Resposta: ...... B
+Resposta: ...... A
+--> Pergunta: <--
+69
+Texto da Pergunta 69
+1
+Resposta: ...... C
+Resposta: ...... A
+Resposta: ...... B
+--> Pergunta: <--
+115
+Texto da Pergunta 115
+2
+Resposta: ...... A
+Resposta: ...... B
+--> Pergunta: <--
+3
+Texto da Pergunta 3
+4
+Resposta: ...... A
+Resposta: ...... D
+Resposta: ...... C
+Resposta: ...... B
+--> Pergunta: <--
+105
+Texto da Pergunta 105
+2
+Resposta: ...... A
+Resposta: ...... B
+--> Pergunta: <--
+16
+Texto da Pergunta 16
+4
+Resposta: ...... C
+Resposta: ...... A
+Resposta: ...... B
+Resposta: ...... D
+--> Pergunta: <--
+21
+Texto da Pergunta 21
+3
+Resposta: ...... C
+Resposta: ...... D
+Resposta: ...... A
+Resposta: ...... B
+--> Pergunta: <--
+110
+Texto da Pergunta 110
+3
+Resposta: ...... B
+Resposta: ...... C
+Resposta: ...... A
+--> Pergunta: <--
+7
+Texto da Pergunta 7
+3
+Resposta: ...... C
+Resposta: ...... A
+Resposta: ...... B
+--> Pergunta: <--
+20
+Texto da Pergunta 20
+2
+Resposta: ...... B
+Resposta: ...... A
+Resposta: ...... C
+--> Pergunta: <--
+107
+Texto da Pergunta 107
+1
+Resposta: ...... A
+Resposta: ...... C
+Resposta: ...... B
+--> Pergunta: <--
+55
+Texto da Pergunta 55
+3
+Resposta: ...... C
+Resposta: ...... B
+Resposta: ...... A
